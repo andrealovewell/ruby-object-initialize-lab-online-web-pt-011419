@@ -3,7 +3,7 @@ class Person
     @name = name
   end
 
-  def name = (name)
+  def name=(name)
     @name = name
   end
 
@@ -11,3 +11,5 @@ class Person
     @name
   end
 end 
+
+beyonce = Person.new("beyonce")
